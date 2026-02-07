@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://example.com/services/service-name/#service",
+  "name": "SERVICE NAME",
+  "description": "SERVICE DESCRIPTION IN PLAIN LANGUAGE.",
+  "provider": {
+    "@id": "https://example.com/#localbusiness"
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "SERVICE AREA (CITY/REGION)"
+    }
+  ],
+  "serviceType": "SERVICE CATEGORY",
+  "url": "https://example.com/services/service-name/"
+}
